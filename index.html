@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../cifrado/style.css">
+    <script src="../cifrado/script.js"></script>
+    <title>Cifrado</title>
+</head>
+<body>
+    <header>
+        <img src="../cifrado/logo4.png" alt="logo-principal">
+
+    </header>
+
+    <main>
+        <section class="seccion1">
+            <textarea class="text-area" id="textoEncriptado" placeholder="Escribe tu texto aquí,solo minusculas sin acentos ni signos" cols="30" rows="10"></textarea> 
+            <div class="contenedor-botones">
+                <button type="button" id="botonEncriptado" class="boton-encriptar">Encriptar</button>
+                <button type="button" id="botonDesencriptado" class="boton-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="seccion2">
+            <div class="contenedor-imagen">
+                <img src="../cifrado/imagenlupa.avif" alt="muñeco-lupa" class="muñeco">
+                <textarea class="text-area2" name="resultado" id="textoDesencriptado" cols="30" rows="10"></textarea> 
+                <p><strong>No se encontro ningun mensaje</strong></p>
+                <p>Escriba el texto que desea Encriptar o Desencriptar</p>
+                <button class="boton-copiar" type="button" id="botonCopiar">Copiar</button>
+            </div>
+            
+
+       
+       
+
+          </section>
+
+    </main>
+
+    <footer>
+      by Cecilia Miras @2023
+    </footer>
+    
+    
+</body>
+<script>
+    var btn= document.querySelector("#botonEncriptado");
+    btn.onclick=encriptar;
+    var btn2= document.querySelector("#botonDesencriptado");
+    btn2.onclick=desencriptar;
+    var btn3= document.querySelector("#botonCopiar");
+    btn3.onclick=copiar;
+</script>
+</html>

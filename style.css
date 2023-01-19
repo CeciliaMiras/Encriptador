@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(201, 197, 213);
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(147, 150, 152);
+}
+header img{
+    margin-left: 95px;
+    padding: 5px;
+    width: 5%;
+    height: 90%;
+}
+
+
+#botonCopiar{
+    display: none;
+}
+main{
+    width: 100%;
+    height: 600px;
+    background: rgb(196, 194, 205);
+    display: flex;/*decimos que lo que haya dentro del main pueda moverse como cajas*/
+    justify-content:space-between;
+}
+footer{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    padding-top: 20px;
+    background:rgb(96, 94, 94)
+    
+}
+section{
+    height: 100%;
+    
+}
+.seccion1{
+    width: 60%;
+}
+.seccion2{
+    width: 40%;
+}
+
+.muñeco{
+    width: 60%;
+    height: 50%;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.contenedor-imagen{
+    width: 90%;
+    height: 80%;
+    text-align: center;
+    
+}
+.contenedor-subtitulo{
+    width: 20%;
+    height: 5%;
+    
+}
+.text-area{
+    width: 60%;
+    height: 60%;
+    resize: none;
+    padding: 25px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 45px;
+    font-size: 25px;
+    border-radius: 24px;
+    border: 0;
+    outline: 0;
+}
+.contenedor-botones{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.boton-encriptar{
+width: 30%;
+height: 40px;
+background-color: rgb(237, 113, 138);
+border-radius: 24px;
+font-size: 20px;
+color:white
+
+}
+.boton-desencriptar{
+width: 30%;
+height: 40px;
+background-color: rgb(56, 226, 90);
+border-radius: 24px;
+font-size: 20px;
+color:white;
+
+}
+.boton-copiar{
+width: 30%;
+height: 40px;
+background-color: rgb(50, 15, 116);
+border-radius: 24px;
+font-size: 20px;
+color:white;
+display: block;
+margin: auto;
+margin-top: 10px;
+
+
+}
+.text-area2{
+    width: 60%;
+    height: 40%;
+    resize: none;      
+    margin: auto;
+    text-align: center; 
+    font-size: 25px;
+    border-radius: 24px;
+    border: 0;
+    outline: 0;
+}
